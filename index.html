@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/x-icon" href="img/logo.svg">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      <script type="text/javascript" src="chart1.js"></script>
+      <script type="text/javascript" src="chart2.js"></script>
+      <title>Responsive Dashboard</title>
+   </head>
+   <body>
+      <div class="container">
+         <header class="header">
+            <div class="search-bar">
+               <p>Search</p>
+               <div>
+                  <img class="notification" src="img/search.svg" alt="">
+               </div>
+            </div>
+            <div class="account">
+               <div class="menu">
+                  <img src="img/menu.svg" alt="">
+               </div>
+               <div>
+                  <img class="notification" src="img/plus.svg" alt="">
+               </div>
+               <div>
+                  <img class="notification" src="img/notification.svg" alt="">
+               </div>
+               <div>
+                  <img class="avatar" src="img/avatar.jfif">
+               </div>
+               <div>
+                  <p>Sarah Chapman</p>
+               </div>
+               <div>
+                  <img class="down-arrow" src="img/down-arrow.svg" alt="">
+               </div>
+            </div>
+         </header>
+         <sidebar class="sidebar">
+            <div class="sidebar-content">
+               <div class="sidebar-option sidebar-option-title">
+                  <img class="sidebar-option-img2" src="img/logo.svg" alt="">
+                  <h1 style="color: white">Dashboard</h1>
+               </div>
+               <br><br>
+               <div class="sidebar-option">
+                  <img class="sidebar-option-img" src="img/home.svg" alt="">
+                  <p><b>Home</b></p>
+               </div>
+               <div class="sidebar-option">
+                  <img class="sidebar-option-img" src="img/profile.svg" alt="">
+                  <p><b>Profile</b></p>
+               </div>
+               <div class="sidebar-option">
+                  <img class="sidebar-option-img" src="img/messages.svg" alt="">
+                  <p><b>Messages</b></p>
+               </div>
+               <div class="sidebar-option">
+                  <img class="sidebar-option-img" src="img/history.svg" alt="">
+                  <p><b>History</b></p>
+               </div>
+               <div class="sidebar-option">
+                  <img class="sidebar-option-img" src="img/tasks.svg" alt="">
+                  <p><b>Tasks</b></p>
+               </div>
+               <div class="sidebar-option">
+                  <img class="sidebar-option-img" src="img/communities.svg" alt="">
+                  <p><b>Communities</b></p>
+               </div>
+               <br><br>
+               <div class="sidebar-option">
+                  <img class="sidebar-option-img" src="img/settings.svg" alt="">
+                  <p><b>Settings</b></p>
+               </div>
+               <div class="sidebar-option">
+                  <img class="sidebar-option-img" src="img/support.svg" alt="">
+                  <p><b>Support</b></p>
+               </div>
+               <div class="sidebar-option">
+                  <img class="sidebar-option-img" src="img/privacy.svg" alt="">
+                  <p><b>Privacy</b></p>
+               </div>
+            </div>
+         </sidebar>
+         <main class="main" id="main">
+            <div class="content-grid">
+               <div class="admin">
+                  <div class="card-content">
+                     <div class="card-content-row1">
+                        <div>
+                           <img class="avatar-2" src="img/alert.svg">
+                        </div>
+                        <div class="card-content-row1-column2">
+                           <h1>Welcome Back Sarah!</h1>
+                        </div>
+                     </div>
+                     <div class="card-content-paragraph">
+                        <p class="admin-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni est beatae quaerat eaque similique quis, dolorem id accusantium possimus.
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni est beatae quaerat eaque similique quis, dolorem id accusantium possimus.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="card">
+                  <div class="card-content">
+                     <div class="card-content-row1">
+                        <div>
+                           <img class="avatar-2" src="img/avatar2.jfif">
+                        </div>
+                        <div class="card-content-row1-column2">
+                           <p>Jessica Sherman</p>
+                           <p style="padding-left: 20px;">7:23 PM</p>
+                        </div>
+                     </div>
+                     <div class="card-content-paragraph">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni est beatae quaerat eaque similique quis, dolorem id accusantium possimus.</p>
+                     </div>
+                     <div class="card-icons">
+                        <div class="card-icons-left">
+                           <img class="card-icons-icon" src="img/card-icon-1.svg">
+                           <img class="card-icons-icon" src="img/card-icon-2.svg">
+                           <img class="card-icons-icon" src="img/card-icon-3.svg"> 
+                        </div>
+                        <div>
+                           <img class="card-icons-icon" src="img/heart.svg" style="padding-right: 0px">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="card">
+                  <div class="card-content">
+                     <div class="card-content-row1">
+                        <div>
+                           <img class="avatar-2" src="img/avatar3.jfif">
+                        </div>
+                        <div class="card-content-row1-column2">
+                           <p>John Keyes</p>
+                           <p style="padding-left: 20px;">5:16 PM</p>
+                        </div>
+                     </div>
+                     <div class="card-content-paragraph">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni est beatae quaerat eaque similique quis, dolorem id accusantium possimus.</p>
+                     </div>
+                     <div class="card-icons">
+                        <div class="card-icons-left">
+                           <img class="card-icons-icon" src="img/card-icon-1.svg">
+                           <img class="card-icons-icon" src="img/card-icon-2.svg">
+                           <img class="card-icons-icon" src="img/card-icon-3.svg"> 
+                        </div>
+                        <div>
+                           <img class="card-icons-icon" src="img/heart.svg" style="padding-right: 0px">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="card">
+                  <div class="card-content">
+                     <div class="card-content-row1">
+                        <div>
+                           <img class="avatar-2" src="img/avatar4.jfif">
+                        </div>
+                        <div class="card-content-row1-column2">
+                           <p>Ross Patterson</p>
+                           <p style="padding-left: 20px;">4:53 PM</p>
+                        </div>
+                     </div>
+                     <div class="card-content-paragraph">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni est beatae quaerat eaque similique quis, dolorem id accusantium possimus.</p>
+                     </div>
+                     <div class="card-icons">
+                        <div class="card-icons-left">
+                           <img class="card-icons-icon" src="img/card-icon-1.svg">
+                           <img class="card-icons-icon" src="img/card-icon-2.svg">
+                           <img class="card-icons-icon" src="img/card-icon-3.svg"> 
+                        </div>
+                        <div>
+                           <img class="card-icons-icon" src="img/heart.svg" style="padding-right: 0px">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="card card-special">
+                  <div class="card-content">
+                     <div class="card-content-row1">
+                        <div >
+                           <p>Changes (24 Hour Period)</p>
+                        </div>
+                     </div>
+                     <div>
+                        <h1 class="stats">$2652.33 AUD &#8593;</h1>
+                     </div>
+                  </div>
+               </div>
+               <div class="card-large1">
+                  <div class="card-content2">
+                     <div class="card-content-row1">
+                        <div >
+                           <h1>Sales Goal (Quarter 3 - 2022)</h1>
+                        </div>
+                     </div>
+                     <div>
+                        <h1 class="stats" style="text-align: center; border-bottom: none;">$15589.33 AUD</h1>
+                     </div>
+                  </div>
+               </div>
+               <div class="card-large2">
+                  <div id="chart_div"></div>
+               </div>
+               <div class="card-large2">
+                  <div id="chart_div2"></div>
+               </div>
+            </div>
+         </main>
+         <footer class="footer">
+            <div class="footer-content">
+               <p>&copy; 2022 Ash Madden</p>
+            </div>
+         </footer>
+      </div>
+   </body>
+</html>
