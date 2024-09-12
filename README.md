@@ -1,2 +1,2 @@
 # Responsive Dashboard
-View it here https://ashmaddenweb.github.io/responsive-dashboard/
+View it here: https://ashmaddenwebmelbourne.github.io/responsive-dashboard/
